@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="startGame.css">
+    <script src="startGame.js"></script>
+    <audio id="music" src="audio/g.mp3"></audio>
+</head>
+<body onclick="mm()" style="background-image: url(img/63371_\(2\).gif);"> 
+        <h1 class="my-font-color" style="text-align: center;font-size: 30px">בול פגיעה </h1>
+        <h1 style="font-size: 40px;color: crimson;margin-left: 730px;" id="timer"> </h1>
+            <a  id="buton" href="game.html" target="_self">חזרה לתפריט</a>
+            <a  style="background-color: black;color: black;padding:0px 0px ;margin-left: 0%;" id="bb" href="pras.html" target="_self">מדליית הזהב</a>
+           <button class="mm" id="pras" disabled="true" onclick="changkishur('pras')" >  למעבר לפרס  </button> 
+         
+      
+
+            <style> /* עיצוב הכפתור לחיצה */
+            button{
+              background-color:aliceblue;
+                  color: red;
+                  padding: 15px 25px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-left: 47%;
+                  
+            }
+          
+                a:link, a:visited {          
+                  background-color:aliceblue;
+                  color: red;
+                 
+                  padding: 15px 25px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-left: 47%;
+                  
+             
+                }
+                a:hover, a:active {
+                  background-color: rgb(195, 0, 255);
+                }
+                </style>
+                
+
+        <!-- <h1 id="word"></h1> -->
+        <div id="div1" style="margin-left: 35%" >
+            <button class="btnColor" style="background-color: red" onclick="setColor('red')"></button>
+            <button class="btnColor" style="background-color: orange" onclick="setColor('orange')"></button>
+            <button class="btnColor" style="background-color: yellow" onclick="setColor('yellow')"></button>
+            <button class="btnColor" style="background-color: yellowgreen" onclick="setColor('yellowgreen')"></button>
+            <button class="btnColor" style="background-color: green" onclick="setColor('green')"></button>
+            <button class="btnColor" style="background-color: blue" onclick="setColor('blue')"></button>
+            <button class="btnColor" style="background-color: lightblue" onclick="setColor('lightblue')"></button>
+            <button class="btnColor" style="background-color: purple" onclick="setColor('purple')"></button>
+            <br><br>
+          
+        </div >
+        <div id="div2" style="margin-left: 42.5%" >
+             
+                <button class="btnColor" id="1" disabled="true" ></button>
+                <button class="btnColor" id="2" disabled="true" ></button>
+                <button class="btnColor" id="3" disabled="true"></button>
+                <button class="btnColor" id="4" disabled="true"></button>
+                
+        </div>
+
+        <div id="div3">
+            <button id="ta" class="my-font-color btn"   onclick="clearAll('white')" ><b>נקה ללוח</b></button>
+            <button id="tb" class="my-font-color btn"   onclick="clearTheScreen()" ><b>  בדוק לוח</b> </button>
+        </div>
+        
+        <span style="color: purple;font-size: 30px;" id="r">  </span> 
+        <span style="color: purple;font-size: 30px;margin-left: 650px;" id="vilo"> </span> 
+        <h2 id="oops" style="margin-left: 30.5%;font-size: 70px;color: crimson;"></h2>
+        
+        <canvas  style="background-color: aquamarine;margin-left: 650px;" id="myCanvas"  width="200" height="100"></canvas>
+       
+        
+        
+        
+
+        
+</body onclick="stopAudio()">
+</html>
+
+
+
+
+

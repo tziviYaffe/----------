@@ -1,0 +1,30 @@
+.btnColor{
+    /* עיצוב כפתורי המילוי */
+    border-radius: 50%;
+    height: 1.5cm;
+    width: 1.5cm;
+    margin-left: 10px;
+    background-color: white;
+}
+#noVisiable{
+    background-color: aliceblue;
+}
+.my-font-color{
+    /* עיצוב הכפתורים לגבי הכתב */
+    font-family: "Segoe UI",Arial,sans-serif;
+    color: red;
+}
+.btn{
+    /* עיצוב הכפתורים לגבי הגודל שלהם */
+    border-radius: 20%;
+    height: 2.cm;width: 2cm;
+    font-size:15px;
+    margin-left: 47.5%;
+}
+.lm{
+    /* עיצוב */
+    border-radius: 50%;   
+    height: 1.5cm;
+    width: 1.5cm;
+    margin-left: 10px;
+}
